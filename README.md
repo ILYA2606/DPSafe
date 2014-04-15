@@ -9,7 +9,7 @@ Handling Sample:
 
 id object = array[@"something key"]; //Handling 'key for array'
 
-id object = array[999]; //Handling wrong index
+id object = array[-1]; //Handling wrong index
 
 id object = array[1]; //array.count = 1. Handling 'out of bounds'
 
